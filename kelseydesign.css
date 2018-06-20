@@ -89,6 +89,7 @@
 		width:65%;
 		margin: 0 auto;
 		padding: 15px 0 15px 0;
+		display:-ms-grid;
 		display:grid;
 		grid-template-columns: 9fr 1fr 1fr 1fr 1fr;
 		grid-gap: 10px;
@@ -96,7 +97,7 @@
 	.navlink {
 		display: flex;
 		justify-self: end;
-    	align-items: center;
+    		align-items: center;
 		height: 100%;
 		text-transform: uppercase;
 		font-size: 14px;
@@ -106,7 +107,7 @@
 	.navlogo {
 		display: flex;
 		justify-self: start;
-    	align-items: center;
+    		align-items: center;
 		text-align: left;
 		height: 100%;
 		font-family: 'Roboto Slab', serif;
@@ -193,6 +194,8 @@
 		background-image: url(Images/ksdleviesBG.jpg);
 		background-position: center;
 		background-size:cover;
+		-ms-grid-column: 1/3;
+		-ms-grid-row: 1/3;
 		grid-column: 1/3;
 		grid-row: 1/3;
 	}
@@ -200,6 +203,7 @@
 		background-image: url(Images/Choral-Posters-BG.jpg);
 		background-position: center;
 		background-size:cover;
+		-ms-grid-column: 3/5;
 		grid-column: 3/5;
 	}
 	.portfolio3 {
@@ -221,6 +225,8 @@
 		background-image: url(Images/choosekennewickBG.jpg);
 		background-position: center;
 		background-size:cover;
+		-ms-grid-column: 2/4;
+		-ms-grid-row: 3/5;
 		grid-column: 2/4;
 		grid-row: 3/5;
 	}
@@ -233,6 +239,7 @@
 		background-image: url(Images/comedbg.jpg);
 		background-position: center;
 		background-size:cover;
+		-ms-grid-row: 3/5;
 		grid-row: 3/5;
 	}
 	.portfolio9 {
@@ -250,6 +257,7 @@
 		width:95%;
 		margin: 0 auto;
 		padding: 15px 0 15px 0;
+		-ms-display:grid;
 		display:grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: 3em;
