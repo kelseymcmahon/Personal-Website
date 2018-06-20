@@ -135,6 +135,7 @@
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: 1em;
 		grid-auto-rows: 250px;
+  		-ms-grid-rows: 250px;
 	}
 	.work img {
 		object-fit: cover;
@@ -155,7 +156,7 @@
 	.content {
 		display: flex;
 		justify-content: center;
-    	align-items: center;
+    		align-items: center;
 		height: 100%;
 		background-color: rgba(25,145,175,0.00);
 		transition: .2s ease;
