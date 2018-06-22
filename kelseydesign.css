@@ -195,7 +195,7 @@
 		padding: 15px 0 15px 0;
 	}
 	.portfolio1 {
-		background-image: url(Images/ksdleviesBG.jpg);
+		background-image: url(/Images/ksdleviesBG.jpg);
 		background-position: center;
 		background-size:cover;
 		-ms-grid-column: 1/3;
