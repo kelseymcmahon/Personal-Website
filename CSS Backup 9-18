@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+	body {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		margin:0;
+		padding:0;
+	}
+	div {
+		margin:0;
+		padding:0;
+	}
+	h1 {
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
+		font-size: 35px;
+		padding: 10px 0 0 0;
+		letter-spacing: 1px;
+	}
+	h2 {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
+		font-size: 25px;
+	}
+	img {
+		margin:0;
+		padding:0;
+	}
+	p {
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+	a {
+		text-decoration: none;
+		color:#009BAC;
+	}
+	a:active {
+		color:#ED833B;
+	}
+	hr {
+	       padding: 0 0 15px 0;
+	       height: 0;
+	       width: 75px;
+	       max-height: 0;
+	       font-size: 1px;
+	       line-height: 0;
+	       border: none;
+	       border-top: 2px solid #ED833B;
+	}
+	header {
+		margin:0;
+		padding:0;
+		margin-bottom: 75px;
+	}
+	nav {
+		width: 100%;
+		position: fixed;
+		overflow: hidden;
+		z-index: 1;
+		transition: .5s;
+	}
+	nav a {
+		color:#ffffff;
+		text-decoration: none;
+	}
+	nav a:hover {
+		color:#ED833B;
+	}	
+	nav a:active {
+		color:#ED833B;
+	}
+	nav.colored {
+		background-color: rgba(255,255,255,1.00);
+		 border-bottom: 1px solid #dddddd;
+	}
+	nav.colored a {
+		color:#009BAC;
+	}
+	nav.colored a:hover {
+		color:#ED833B;
+	}
+	footer {
+		margin:0;
+		padding: 20px 0 20px 0;
+		width: 100%;
+		background-color: #292929;
+		color: #fff;
+		text-align: center;
+		font-size: 12px; 
+	}
+	.navgridtop {
+		width:65%;
+		margin: 0 auto;
+		padding: 15px 0 15px 0;
+		display:-ms-grid;
+		display:grid;
+		grid-template-columns: 9fr 1fr 1fr 1fr 1fr;
+		-ms-grid-template-columns: 9fr 1fr 1fr 1fr 1fr;
+		grid-gap: 10px;
+		-ms-grid-gap: 10px;
+	}
+	.navlink {
+		display: flex;
+		justify-self: end;
+    		align-items: center;
+		height: 100%;
+		text-transform: uppercase;
+		font-size: 14px;
+		transition: .5s;
+		font-weight: 700;
+	}
+	.navlogo {
+		display: flex;
+		justify-self: start;
+    		align-items: center;
+		text-align: left;
+		height: 100%;
+		font-family: 'Roboto Slab', serif;
+		text-transform: uppercase;
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.headerbanner {
+		margin:0;
+		padding:0;
+		width: 100%;
+		height: 600px;
+		background-image: url(Images/me-animated.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-color: #009BAC;
+		color: white;
+		text-align: center;
+	}
+
+	.work {
+		display:-ms-grid;
+		display:grid;
+		width:85%;
+		margin: 0 auto;
+		padding: 15px;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		-ms-grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 1em;
+		-ms-grid-gap: 1em;
+		grid-auto-rows: 250px;
+  		-ms-grid-auto-rows: 250px;
+	}
+	.work img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		z-index: -1;
+	}
+	.work a {
+		color: rgba(255,255,255,0.00);
+		text-decoration: none;
+	}
+	.content:hover {
+		color: rgba(255,255,255,1.00);
+		text-shadow: 2px 2px #006B76;
+		background-color: rgba(0,155,172,0.50);
+	}
+	.content {
+		display: flex;
+		justify-content: center;
+    		align-items: center;
+		height: 100%;
+		background-color: rgba(25,145,175,0.00);
+		transition: .2s ease;
+	}
+	.textbanner {
+		width: 100%;
+		margin:0;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+	.textbannercolored {
+		width: 100%;
+		margin:0;
+		padding: 30px 0 30px 0;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0,155,172,1);
+		color:white;
+	}
+	.portfoliopage {
+		width: 60%;
+		margin:0 auto;
+		padding: 0 0 50px 0;
+	}
+	.portfoliopage img {
+		width: 100%;
+		margin: 0;
+		padding: 15px 0 15px 0;
+	}
+	.portfolio1 {
+		background-image: url(/Images/ksdleviesBG.jpg);
+		background-position: center;
+		background-size:cover;
+		grid-column: 1/3;
+		-ms-grid-column: 1/3;
+		grid-row: 1/3;
+		-ms-grid-row: 1/3;
+	}
+	.portfolio2 {
+		background-image: url(Images/Choral-Posters-BG.jpg);
+		background-position: center;
+		background-size:cover;
+		grid-column: 3/5;
+		-ms-grid-column: 3/5;
+	}
+	.portfolio3 {
+		background-image: url(Images/Youtube-Thumbnail.jpg);
+		background-position: center;
+		background-size:cover;
+	}
+	.portfolio4 {
+		background-image: url(Images/the-big-picture-bg.jpg);
+		background-position: center;
+		background-size:cover;
+	}
+	.portfolio5 {
+		background-image: url(http://i50.photobucket.com/albums/f314/Kelsey_McMahon/PAR%20Brochure%20Mockup%202016_zpszguraitf.jpg);
+		background-position: center;
+		background-size:cover;
+	}
+	.portfolio6 {
+		background-image: url(Images/choosekennewickBG.jpg);
+		background-position: center;
+		background-size:cover;
+		-ms-grid-column: 2/4;
+		-ms-grid-row: 3/5;
+		grid-column: 2/4;
+		grid-row: 3/5;
+	}
+	.portfolio7 {
+		background-image: url(http://i50.photobucket.com/albums/f314/Kelsey_McMahon/PAR%20Brochure%20Mockup%202016_zpszguraitf.jpg);
+		background-position: center;
+		background-size:cover;
+	}
+	.portfolio8 {
+		background-image: url(Images/comedbg.jpg);
+		background-position: center;
+		background-size:cover;
+		-ms-grid-row: 3/5;
+		grid-row: 3/5;
+	}
+	.portfolio9 {
+		background-image: url(http://i50.photobucket.com/albums/f314/Kelsey_McMahon/PAR%20Brochure%20Mockup%202016_zpszguraitf.jpg);
+		background-position: center;
+		background-size:cover;
+	}
+	.skills {
+		background-color: #E6E6E6;
+		width: 100%;
+		margin-top: 150px;
+		padding:100px 0 150px 0;
+	}
+	.skillicons {
+		width:95%;
+		margin: 0 auto;
+		padding: 15px 0 15px 0;
+		-ms-display:grid;
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 3em;
+		text-align: center;
+	}
+	.skillicons > div {
+		background-color: #fff;
+		padding:20px;
+	}
+	.skillicons img {
+		width: 100%;
+	}
+	.about {
+		margin:0;
+		padding:0;
+		width: 100%;
+		background-color: #fff;
+	}
+	.sectioncontent{
+		margin: 0 auto;
+		width: 45%;
+		padding: 100px;
+		text-align: center;
+	}
+	.contact {
+		margin:0;
+		padding:0;
+		width: 100%;
+		background-color: #0071BC;
+		color: #fff;
+	}
+	.button {
+		width: 150px;
+		margin: 0 auto;
+		padding: 15px;
+		border-radius: 8px;
+		background-color: #ED833B;
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.button:hover {
+		background-color: #fff;
+		color: #ED833B;
+	}
+	@media screen and (max-width: 1000px) {
+		h1 {
+			font-size: 28px;
+		}
+		.work {
+			width: 90%;
+		}
+		.headerbanner img {
+		  width: 100%;
+			max-width: 650px;
+		}
+		.navgridtop {
+			width:90%;
+		}
+		.skills {
+			margin-top: 80px;
+			padding:50px 0 100px 0;
+		}
+		.skillicons {
+			grid-template-columns: 1fr 1fr;
+		}
+		.headerbanner {
+			height: 450px;
+		}
+		.sectioncontent {
+			width: 75%;
+			padding: 75px 0 75px 0;
+		}
+		.headerbanner {		
+			background-position: bottom;
+			background-size: contain;
+		}
+	}
+	@media screen and (max-width: 650px) {
+		h1 {
+			font-size: 26px;
+		}
+		.work {
+			display:block;
+			width:90%;
+			margin: 0 auto;
+		}
+		.work > div {
+			height: 300px;
+			margin-bottom: 15px;
+		}
+		.navgridtop {
+			width:90%;
+			height: 30px;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			grid-gap: 0px;
+		}
+		.navlink {
+			visibility: hidden;
+			transition: 0s;
+		}
+		.navlogo {
+			grid-column: 1/5;
+			justify-self: center;
+    		align-items: center;
+			font-size: 23px;
+		}
+		.skillicons {
+			width:90%;
+			grid-template-columns: 1fr;
+			grid-gap: 1em;
+		}
+		.skillicons > div {
+			padding:20px;
+		}
+		.headerbanner {		
+			background-image: url(Images/me-animated-mobile.png);
+			background-position: bottom;
+			background-size: cover;
+			height:550px;
+		}
+		.sectioncontent {
+			width: 90%;
+			padding: 45px 0 45px 0;
+		}
+		header {
+			margin-bottom: 50px;
+		}
+		.skills {
+			margin-top: 65px;
+			padding:50px 0 50px 0;
+		}
+		.portfoliopage {
+			width: 90%;
+		}
+		.portfoliopage img {
+			width: 100%;
+			padding: 10px 0 10px 0;
+		}
+	}
