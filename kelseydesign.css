@@ -141,7 +141,10 @@
 		text-align: center;
 		background-color: #00B0BF;
 	}
-
+        #animation {
+	        width: 100%;
+		height: 250px;
+        }
 	.work {
 		display:-ms-grid;
 		display:grid;
@@ -427,6 +430,9 @@
 			background-size: cover;
 			height:550px;
 		}
+		#animation {
+	                display: none;
+                }
 		.sectioncontent {
 			width: 90%;
 			padding: 45px 0 45px 0;
