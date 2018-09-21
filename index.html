@@ -5,9 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kelsey McMahon Design</title>
 <script src="lottie.js" type="text/javascript"></script>
-<script>
-	window.alert("sometext");
-</script>
 <script src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous">
@@ -175,13 +172,16 @@
 		&copy; 2018 Kelsey McMahon
 	</footer>
 <script>
-	lottie.loadAnimation({
-	  container: document.getElementById('animation')
-	  renderer: 'svg',
-	  loop: true,
-	  autoplay: true,
-	  path: 'me-animated.json' // the path to the animation json
-	});
+    var animData = {
+        wrapper: document.getElementById('animation'),
+        animType: 'html',
+        loop: true,
+        prerender: true,
+        autoplay: true,
+        path: 'me-animated.json'
+    };
+    var anim = animation.loadAnimation(animData);
+    window.onresize = anim.resize.bind(anim);
 </script>
 </body>
 </html>
