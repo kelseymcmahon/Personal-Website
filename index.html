@@ -8,19 +8,7 @@
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous">
 </script>
-<script src="js/data.js"></script>
-<script>
-   var container = document.getElementsById('animation');
-    // Set up our animation 
-    var animData = {
-        container: container,
-        renderer: 'svg',
-        autoplay: true,
-        loop: true,
-        path: 'me-animated.json'
-    };
-    var anim = bodymovin.loadAnimation(animData);
-</script>
+
 <link rel="stylesheet" type="text/css" href="kelseydesign.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,700" rel="stylesheet">
 
@@ -181,5 +169,7 @@
 	<footer>
 		&copy; 2018 Kelsey McMahon
 	</footer>
+<script src="scripts/bodymovin.js"></script>
+<script src="scripts/index.js"></script>
 </body>
 </html>
