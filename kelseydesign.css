@@ -142,8 +142,14 @@
 		background-color: #00B0BF;
 	}
         #animation {
-	        width: 250px;
-		height: 250px;
+	    background-color:#fff;
+            width:100%;
+            height:100%;
+            display:block;
+            overflow: hidden;
+            transform: translate3d(0,0,0);
+            text-align: center;
+            opacity: 1;
         }
 	.work {
 		display:-ms-grid;
