@@ -382,6 +382,11 @@
 			background-position: bottom;
 			background-size: contain;
 		}
+		.portfoliopage {
+			width: 75%;
+			margin:0 auto;
+			padding: 0 0 50px 0;
+	        }
 	}
 	@media screen and (max-width: 650px) {
 		h1 {
