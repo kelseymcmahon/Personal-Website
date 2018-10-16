@@ -38,6 +38,9 @@
 	a:active {
 		color:#ED833B;
 	}
+	a:hover { 
+		color:#666666;
+	}
 	hr {
 	       padding: 0 0 15px 0;
 	       height: 0;
@@ -342,7 +345,7 @@
 		text-transform: uppercase;
 	}
 	.button:hover {
-		background-color: #fff;
+		background-color: #EFEFF0;
 		color: #ED833B;
 	}
 	@media screen and (max-width: 1000px) {
