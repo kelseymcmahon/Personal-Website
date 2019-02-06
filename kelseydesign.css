@@ -265,8 +265,7 @@
 		background-image: url(Images/BondBG.jpg);
 		background-position: center;
 		background-size:cover;
-		-ms-grid-column: 4;
-		grid-column: 4;
+		
 	}
 	.portfolio6 {
 		background-image: url(Images/choosekennewickBG.jpg);
