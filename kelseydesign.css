@@ -137,7 +137,7 @@
 	}
 	.headerbanner {
 		background-image: url(Images/New-Me-Website.jpg);
-		background-position: bottom;
+		background-position: top;
 		background-size: cover;
 		height:550px;
 	}
