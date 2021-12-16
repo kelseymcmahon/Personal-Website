@@ -451,7 +451,7 @@
 		}
 		.headerbanner {		
 			background-image: url(Images/New-Me-Website-mobile.jpg);
-			background-position: bottom;
+			background-position: top;
 			background-size: cover;
 			height:550px;
 		}
