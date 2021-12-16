@@ -216,7 +216,7 @@
 		-webkit-box-pack: center;
 		    -ms-flex-pack: center;
 		        justify-content: center;
-		background-color: rgba(0,155,172,1);
+		background-color: rgba(0,90,54,1);
 		color:white;
 	}
 	.portfoliopage {
@@ -347,7 +347,7 @@
 		margin:0;
 		padding:0;
 		width: 100%;
-		background-color: #0071BC;
+		background-color: #005A36;
 		color: #fff;
 	}
 	.button {
