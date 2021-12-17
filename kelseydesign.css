@@ -136,11 +136,13 @@
 		letter-spacing: 1px;
 	}
 	.headerbanner {
-		background-image: url(Images/New-Me-Website.jpg);
-		background-position: top;
-		background-size: cover;
+		background-image: url("https://kelseycreate.com/Images/home-bg.jpg");
+		background-repeat:no-repeat;
+   		background-size:contain;
+		background-position: bottom;
+		height: 400px;
 		width:100%;
-                height:100%;
+		background-color: rgba(0,90,54,1);
 	}
         #animation {
 	    background-color: #00B0BF;
@@ -395,8 +397,7 @@
 			padding: 75px 0 75px 0;
 		}
 		.headerbanner {		
-			background-position: bottom;
-			background-size: contain;
+			height: 300px;
 		}
 		.portfoliopage {
 			width: 75%;
@@ -459,6 +460,10 @@
 		}
 		header {
 			margin-bottom: 50px;
+		}
+		.headerbanner {
+			background-image: url("https://kelseycreate.com/Images/mobile-home-bg.jpg");
+   			height: 350px;
 		}
 		.skills {
 			margin-top: 65px;
